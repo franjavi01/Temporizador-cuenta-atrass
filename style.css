@@ -1,0 +1,37 @@
+#hideads {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-color: grey;
+    text-align: center
+}
+
+#contador {
+    width: 300px;
+    height: 75px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+    cursor: no-drop;
+}
+
+#zero {
+    display: none;
+    margin: 0 auto;
+    width: 300px;
+    height: 75px;
+    border-radius: 20px;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+#zero:hover {
+    scale: 1.1;
+    background: greenyellow;
+    box-shadow: 5px 5px 5px;
+    color: black;
+}
